@@ -1,0 +1,55 @@
+<!doctype html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="zh" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="dist/css/vendor/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="dist/css/vendor/foundation.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link href="dist/css/pizza.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
+	<script src="dist/js/vendor/modernizr.js"></script>
+
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<article class="htmleaf-container">
+	
+		 
+
+		  <div class="row">
+		    <div class="large-4 small-4 columns">
+		      <ul data-bar-id="bar">
+		        <li data-value="200">Water Buffalo (200)</li>
+		        <li data-value="178">Bison (178)</li>
+		        <li data-value="12">Sheep (12)</li>
+		        <li data-value="32">Goat (32)</li>
+		        <li data-value="250">Shetland Pony (250)</li>
+		        <li data-value="99">Wild Ant (99)</li>
+		        <li data-value="78">Chameleon (78)</li>
+		      </ul>
+		    </div>
+		    <div class="large-8 small-8 columns">
+		      <div id="bar" style="height: 450px;"></div>
+		    </div>
+		  </div>
+
+		 
+	</article>
+	
+
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="dist/js/vendor/dependencies.js"></script>
+  	<script src="dist/js/pizza.js"></script>
+  	<script>
+    $(window).load(function() {
+      Pizza.init();
+      $(document).foundation();
+    });
+  	</script>
+</body>
+</html>
